@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2021_02_25_152540) do
   end
 
   create_table "dance_videos", force: :cascade do |t|
+    t.string "url"
     t.string "category"
     t.string "difficulty_level"
     t.string "title"
@@ -47,6 +48,7 @@ ActiveRecord::Schema.define(version: 2021_02_25_152540) do
   end
 
   create_table "user_videos", force: :cascade do |t|
+    t.string "url"
     t.integer "user_id"
     t.string "title"
     t.date "date"
