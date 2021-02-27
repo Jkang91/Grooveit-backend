@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   
   #USER ROUTES
+  get "/me", to: "users#show"
   get "/users/:id", to: "users#show"
   post "/users", to: "users#create"
   patch "/users/:id", to: "users#update"
