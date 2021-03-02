@@ -5,4 +5,6 @@ class User < ApplicationRecord
     has_many :ratings
     has_many :user_videos
     has_many :dance_videos, through: :comments
+    validates :username, uniqueness: true
+    validates :username, presence: true
 end

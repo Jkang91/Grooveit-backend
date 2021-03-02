@@ -4,5 +4,5 @@ class UserSerializer < ActiveModel::Serializer
   has_many :ratings
   has_many :user_videos
   has_many :dance_videos, through: :comments
-  attributes :id, :username, :password_digest
+  attributes :id, :username, :name, :password_digest
 end

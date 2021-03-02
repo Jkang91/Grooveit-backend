@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
   
   #USER ROUTES
+  get "/users", to: "users#index"
   get "/me", to: "users#show"
   get "/users/:id", to: "users#show"
-  post "/users", to: "users#create"
+  get "/users/:id/favorites", to: "users#favorites"
+  post "/login", to: "users#login"
+  post "/signup", to: "users#signup"
   patch "/users/:id", to: "users#update"
 
   #DANCEVIDEO ROUTES
@@ -24,7 +27,7 @@ Rails.application.routes.draw do
   #COMMENT ROUTES
   get "/comments", to: "comments#index"
   get "/comments/:id", to: "comments#show"
-  post "/comments", to: "comments#create"
+  post "/dance_videos/:id/comments", to: "comments#create"
   delete "/comments/:id", to: "comments#destroy"
 
   #USERVIDEOS ROUTES
