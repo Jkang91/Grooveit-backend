@@ -5,8 +5,8 @@ DanceVideo.create(title: "Isolations", category: "hip/hop", difficulty_level: "b
 DanceVideo.create(title: "Tutting", category: "hip/hop", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=lrluSO-Qs0E")
 DanceVideo.create(title: "Body waves", category: "hip/hop", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=8BRogKK6q-c")
 DanceVideo.create(title: "Popping", category: "hip/hop", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=UlXuMDaUE0E")
-
-
+DanceVideo.create(title: "Popping", category: "hip/hop", difficulty_level: "intermediate", url: "https://www.youtube.com/watch?v=UlXuMDaUE0E")
+DanceVideo.create(title: "Popping", category: "hip/hop", difficulty_level: "advanced", url: "https://www.youtube.com/watch?v=UlXuMDaUE0E")
 
 User.create(name: "June", username: "jk91", password: "password")
 

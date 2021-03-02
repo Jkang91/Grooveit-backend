@@ -1,4 +1,4 @@
 class UserVideoSerializer < ActiveModel::Serializer
   belongs_to :user
-  attributes :id, :user_id, :title, :date, :url
+  attributes :id, :user_id, :title, :date, :file
 end
