@@ -10,6 +10,3 @@ DanceVideo.create(title: "Popping", category: "hip/hop", difficulty_level: "adva
 
 User.create(name: "June", username: "jk91", password: "password")
 
-Comment.create(user_id: 1, dance_video_id: 1, comment: "this is so rad!")
-
-Favorite.create(user_id: 1, dance_video_id: 1)
