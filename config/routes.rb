@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   get "/dance_videos/:id", to: "dance_videos#show"
 
   #RATING ROUTES
+  get "/ratings", to: "ratings#index"
   get "/ratings/:id", to: "ratings#show"
   post "/ratings", to: "ratings#create"
   patch "/ratings/:id", to: "ratings#update"
