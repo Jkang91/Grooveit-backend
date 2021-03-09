@@ -10,6 +10,20 @@ class RatingsController < ApplicationController
         render json: rating
     end
 
+    # def create
+    #     # Check Rating table to see if there is a rating already that has the user_id and video_id from params
+    #     # if above is YES then do a Rating.update
+    #     # else 
+    #     # Rating.create
+    #     if Rating.exists?(Rating.find(params[:id]))
+    #         rating.update(rating: params[:rating])
+    #         render json: rating
+    #     else 
+    #         rating = Rating.create(rating_params)
+    #         render json: rating
+    #     end
+    # end
+
     def create
         rating = Rating.create(rating_params)
         render json: rating
@@ -17,7 +31,7 @@ class RatingsController < ApplicationController
 
     def update
         rating = Rating.find(params[:id])
-        rating.update(rating: params[:rating])
+        rating.update(rating: params[:id])
         render json: rating
     end
 
