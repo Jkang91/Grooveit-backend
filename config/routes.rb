@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  root "users#login"
   #USER ROUTES
   get "/users", to: "users#index"
   get "/me", to: "users#show"
