@@ -1,6 +1,8 @@
 #DANCEVIDEOS
 DanceVideo.create(title: "Waves", category: "hip/hop", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=VCX1mNfTnx0" )
+DanceVideo.create(title: "The Carloton", category: "jazz", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=PLAWTUKO2Vk" )
 DanceVideo.create(title: "Shuffle steps", category: "hip/hop", difficulty_level: "intermediate", url: "https://www.youtube.com/watch?v=29pQw2e1Ugg")
+DanceVideo.create(title: "Twerking", category: "reggae", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=3g5S2pouzKE" )
 DanceVideo.create(title: "Isolations", category: "hip/hop", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=Xgsk7yvSiPg")
 DanceVideo.create(title: "Turns", category: "ballet", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=FYSHg3SajIY")
 DanceVideo.create(title: "Barre", category: "ballet", difficulty_level: "intermediate", url: "https://www.youtube.com/watch?v=ZSIfgTOowYk")
@@ -26,17 +28,35 @@ DanceVideo.create(title: "Six count tuck turn", category: "swing dance", difficu
 DanceVideo.create(title: "Basic foxtrot step", category: "ballroom dance", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=LQCDkaDaMjI")
 DanceVideo.create(title: "Advanced lindy hops", category: "swing dance", difficulty_level: "advanced", url: "https://www.youtube.com/watch?v=CAkLubN9daU")
 DanceVideo.create(title: "Basic jazz moves", category: "jazz", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=GDHWUqMQpgM")
+DanceVideo.create(title: "Locking combos", category: "hip/hop", difficulty_level: "intermediate", url: "https://www.youtube.com/watch?v=y7_cQiktu7Y" )
 DanceVideo.create(title: "Haka tutorial", category: "haka", difficulty_level: "", url: "https://www.youtube.com/watch?v=p5cHElD5cf8")
 DanceVideo.create(title: "Disco Funk", category: "disco", difficulty_level: "intermediate", url: "https://www.youtube.com/watch?v=cgDppkLnImI")
 DanceVideo.create(title: "Basic shuffle", category: "shuffle", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=pddp8OLi7lo")
 DanceVideo.create(title: "Three intermediate steps", category: "shuffle", difficulty_level: "intermediate", url: "https://www.youtube.com/watch?v=9aE35W_SnTU")
 DanceVideo.create(title: "Tutting", category: "hip/hop", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=lrluSO-Qs0E")
 DanceVideo.create(title: "Body waves", category: "hip/hop", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=8BRogKK6q-c")
-DanceVideo.create(title: "Feet Position", category: "ballet", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=hr7Q9ewlkzE")
+DanceVideo.create(title: "Feet position", category: "ballet", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=hr7Q9ewlkzE")
 DanceVideo.create(title: "Popping", category: "hip/hop", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=UlXuMDaUE0E")
 DanceVideo.create(title: "Air Walk", category: "hip/hop", difficulty_level: "intermediate", url: "https://www.youtube.com/watch?v=y0mfNWKBQp0")
 DanceVideo.create(title: "Pin/Knee drop", category: "hip/hop", difficulty_level: "intermediate", url: "https://www.youtube.com/watch?v=KZhRZODwCes")
 DanceVideo.create(title: "Body waves", category: "hip/hop", difficulty_level: "advanced", url: "https://www.youtube.com/watch?v=AYUXBDAXIzg")
+DanceVideo.create(title: "Twerking", category: "reggae", difficulty_level: "advanced", url: "https://www.youtube.com/watch?v=8G4ZtFwMdgI" )
+DanceVideo.create(title: "Flares", category: "breakdance", difficulty_level: "advanced", url: "https://www.youtube.com/watch?v=8w2OAzzwl84" )
+DanceVideo.create(title: "Locking", category: "hip/hop", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=nuo-6UKqBMI" )
+DanceVideo.create(title: "Irish step dance", category: "irish dance", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=oWDxLxFFpZY" )
+DanceVideo.create(title: "Three dancehall moves", category: "reggae", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=EwV_gvLSPpc" )
+DanceVideo.create(title: "Schuhplattler ", category: "folk dance", difficulty_level: "intermediate", url: "https://www.youtube.com/watch?v=RbGMiBFkErM" )
+DanceVideo.create(title: "Charleston", category: "jazz", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=Z0oHxyensok" )
+DanceVideo.create(title: "Moonwalk", category: "hip/hop", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=eYT48mu-TIc" )
+DanceVideo.create(title: "Krump basic moves", category: "hip/hop", difficulty_level: "beginner", url: "https://www.youtube.com/watch?v=3C4wEZ6fEuU" )
+DanceVideo.create(title: "Ballet moves", category: "ballet", difficulty_level: "intermediate", url: "https://www.youtube.com/watch?v=M4lMa4Mp4qo" )
+
+
+
+
+
+
+
 
 User.create(name: "June", username: "jk91", password: "password")
 
