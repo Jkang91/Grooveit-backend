@@ -2,6 +2,10 @@ Rails.application.routes.draw do
   
   # root "users#login"
   root "welcome#index"
+
+  # #WELCOME ROUTE
+  # get "/welcome", to: "welcome#index"
+
   #USER ROUTES
   get "/users", to: "users#index"
   get "/me", to: "users#show"
