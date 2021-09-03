@@ -6,6 +6,16 @@ class UsersController < ApplicationController
         render json: users
     end
 
+    def google_login
+      user = AuthorizeGoogleRequest.new(request.headers).user
+      if user
+        token = JsonWebToken.encode({ user_id: user.id })
+        render json: { user: UserSerializer.new(user), token: token }
+      else 
+        render json: { errors: ["Oops something went wrong"]}, status: :unauthorized
+      end
+    end
+
     def show
         # user = User.find(params[:id])
         render json: @current_user
