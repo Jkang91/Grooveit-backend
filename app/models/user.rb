@@ -8,12 +8,14 @@ class User < ApplicationRecord
     validates :username, uniqueness: true
     validates :username, presence: true
 
-    def self.find_or_create_from_google(payload)
-        User.where(name: payload["name"]).first_or_create do |new_user|
-        # User.where(name: payload["email"]).first_or_create do |new_user|
-              new_user.name = payload["name"]
-              # new_user.name = payload["email"]
-              new_user.password = SecureRandom.base64(15)
-            end
-    end
+    def self.create_user_for_google(data)                  
+        where(uid: data["email"]).first_or_initialize.tap do |user|
+          user.provider="google_oauth2"
+          user.uid=data["email"]
+          user.email=data["email"]
+          user.password=Devise.friendly_token[0,20]
+          user.password_confirmation=user.password
+          user.save!
+        end
+      end  
 end

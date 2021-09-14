@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   post "/login", to: "users#login"
   post "/signup", to: "users#signup"
   patch "/users/:id", to: "users#update"
+  post 'auth/request', to:'authorization#get_authorization'
 
   #DANCEVIDEO ROUTES
   get "/dance_videos", to: "dance_videos#index"
