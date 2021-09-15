@@ -44,3 +44,5 @@ gem 'active_model_serializers'
 gem "jwt", "~> 2.2"
 
 gem "omniauth-google-oauth2", "~> 0.2.1"
+
+gem "google-id-token", "~> 1.4"

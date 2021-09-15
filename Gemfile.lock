@@ -97,6 +97,8 @@ GEM
     ffi (1.15.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    google-id-token (1.4.2)
+      jwt (>= 1)
     hashie (4.1.0)
     i18n (1.8.9)
       concurrent-ruby (~> 1.0)
@@ -208,6 +210,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   bootsnap (>= 1.4.4)
   byebug
+  google-id-token (~> 1.4)
   jwt (~> 2.2)
   listen (~> 3.3)
   omniauth-google-oauth2 (~> 0.2.1)
